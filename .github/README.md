@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-personalize-runtime`](https://www.npmjs.com/package/@aws-sdk/client-personalize-runtime/v/3.194.0).
+[`@aws-sdk/client-personalize-runtime`](https://www.npmjs.com/package/@aws-sdk/client-personalize-runtime/v/3.196.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-runtime@3.194.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-runtime@3.196.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-RAFngNVemkDgZTZD+pBTntNIhhQ5a6b9kj4ACM3Ieq6c5k2pWK+VugwsyBXT3IOq
+sha384-5CW7n9iGb6dJr+SmNY5gRLelPhqzxZurcqNC7mS52ARvQ3IFKiiaFtyoIU/T//lS
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-personalize-runtime": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-runtime@3.194.0/index.min.mjs"
+            "@aws-sdk/client-personalize-runtime": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-runtime@3.196.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-runtime@3.194.0/index.min.mjs": "sha384-RAFngNVemkDgZTZD+pBTntNIhhQ5a6b9kj4ACM3Ieq6c5k2pWK+VugwsyBXT3IOq"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-runtime@3.196.0/index.min.mjs": "sha384-5CW7n9iGb6dJr+SmNY5gRLelPhqzxZurcqNC7mS52ARvQ3IFKiiaFtyoIU/T//lS"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-personalize-runtime": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-runtime@3.194.0/index.min.mjs"
+                        "@aws-sdk/client-personalize-runtime": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-runtime@3.196.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-runtime@3.194.0/index.min.mjs": "sha384-RAFngNVemkDgZTZD+pBTntNIhhQ5a6b9kj4ACM3Ieq6c5k2pWK+VugwsyBXT3IOq"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-runtime@3.196.0/index.min.mjs": "sha384-5CW7n9iGb6dJr+SmNY5gRLelPhqzxZurcqNC7mS52ARvQ3IFKiiaFtyoIU/T//lS"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.194.0`)
+* Always pin to a specific version (`@3.196.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-personalize-runtime/blob/refs/tags/3.194.0/LICENSE
+https://github.com/cloud-sdk-builds/client-personalize-runtime/blob/refs/tags/3.196.0/LICENSE
 ```
 
 ---
